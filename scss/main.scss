@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    }
+
+    .wrapper {
+        width: 100vw;
+        min-height: 100vh;
+        background-image: url(/images/star-wars-backgrounds-14_856985d9.webp);
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .menuBar {
+        width: 100%;
+        height: 40px;
+        background-color: rgba(204, 204, 204, 0);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Permanent Marker', cursive;
+    }
+    
+    .menuItem {
+        text-decoration: none;
+        text-transform: capitalize;
+        text-align: center;
+        color: rgb(143, 134, 64);
+        font-size: 30px;
+        font-family: Unbounded;
+        margin-top: 40px;
+        padding:15px;
+    }
+
+    .menuItem:hover{
+        border-radius: 15px;
+        background-color: rgb(185, 185, 85);
+        color:rgb(0, 0, 0);
+    }
+    
+    .active {
+       
+        border-radius: 15px;
+        background-color: rgb(185, 185, 85);
+        color:rgb(0, 0, 0);
+    }
+    
+    .content {
+        display: flex;
+        padding: 50px;
+        flex-wrap: wrap; 
+    }
+    
+    .card {
+        border-radius: 15px;
+        width: 400px;
+        padding: 30px;
+        border: rgb(128, 92, 92) solid 15px;
+        min-width: 200px;
+        min-height: 200px;
+        background-color: #ccc;
+        margin-bottom: 8px;
+    }
+
+    .headline{
+        font-size: 80px;
+        font-family: Unbounded;
+        text-align: center;
+        color:rgb(59, 207, 172);
+    }
+
+    .url{
+        color:rgb(210, 4, 4);
+    }
+
+    .key-style{
+        text-transform: capitalize;
+        color:brown;
+        
+    }
+
+    .clickable{
+        cursor:pointer;
+    }
+
+    .user-card{
+        width: 80%;
+        margin:0 auto;
+    }
+
